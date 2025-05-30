@@ -1,0 +1,38 @@
+{
+  "name": "wily-contract",
+  "version": "1.0.0",
+  "description": "Wilyサービス（フルオンチェーンNFTオークション＆投票サービス）のスマートコントラクト",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network arbitrum",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "node": "hardhat node",
+    "update-frontend": "hardhat run scripts/update-frontend.js --network arbitrum",
+    "update-frontend:local": "hardhat run scripts/update-frontend.js --network localhost"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "arbitrum",
+    "nft",
+    "auction",
+    "voting",
+    "fullonchain",
+    "smart-contract"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/contracts": "^4.9.3",
+    "chai": "^4.3.7",
+    "dotenv": "^16.3.1",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.17.1",
+    "hardhat-gas-reporter": "^1.0.9"
+  }
+}

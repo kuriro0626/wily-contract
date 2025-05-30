@@ -1,0 +1,49 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Blockchain and Smart Contract Development
+.env
+.secret
+secrets.json
+mnemonic.txt
+private_keys.txt
+infura_key.txt
+alchemy_key.txt
+
+# Hardhat
+cache/
+artifacts/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+
+# デプロイメント情報
+deployment-*.json
+
+# その他
+*.log
+*.tmp
